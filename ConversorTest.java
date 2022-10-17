@@ -26,7 +26,7 @@ public class ConversorTest {
 
     @Test
     public void ConversorApiesNumeroNegativoTest(){
-        double result = conversor.millasAkm(-5);
+        double result = conversor.metroApie(-5);
         assertEquals(0, result);
     }
 
